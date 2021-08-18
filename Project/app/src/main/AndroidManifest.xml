@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iraqoz.project">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Chez Gilaine"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".CustomDialogActivity"></activity>
+        <activity android:name=".OrderHistoryItemTemplateActivity" />
+        <activity android:name=".ViewOrdersActivity" />
+        <activity android:name=".UserProfileActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".CheckOutActivity" />
+        <activity android:name=".CategoryFoodItemTemplateActivity" />
+        <activity android:name=".CartViewItemTemplateActivity" />
+        <activity android:name=".ViewCartActivity" />
+        <activity android:name=".ProductDetailActivity" />
+        <activity android:name=".CategoryItemTemplateActivity" />
+        <activity android:name=".HomeMainActivity" />
+        <activity android:name=".AddFoodItemActivity" />
+        <activity android:name=".AdminHomeActivity" />
+        <activity android:name=".FoodItemTemplateActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
